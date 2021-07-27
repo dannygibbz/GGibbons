@@ -89,3 +89,24 @@ tripadvisor.addEventListener("click", () => {
     document.getElementById("message").innerText = ""
   }, 3000)
 })
+
+let about = document.getElementById("about")
+let contactInfo = document.getElementById("contactInfo")
+let expertise = document.getElementById("expertise")
+let writing = document.getElementById("writing")
+
+about.addEventListener("click", () => {
+  body.classList = "closed"
+})
+
+contactInfo.addEventListener("click", () => {
+  body.classList = "closed"
+})
+
+expertise.addEventListener("click", () => {
+  body.classList = "closed"
+})
+
+writing.addEventListener("click", () => {
+  body.classList = "closed"
+})
