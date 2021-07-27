@@ -351,7 +351,7 @@ header {
 
 /* Tasteful recipes */
 
-.tasteful-recipes {
+.space-between {
   background: url("images/edited-blue-2.png") center no-repeat;
   background-size: cover;
 }
@@ -481,6 +481,17 @@ footer {
   margin-left: 10.5rem;
 }
 
+#twitter {
+  animation: status 4s ease forwards;
+}
+
+#message {
+  position: absolute;
+  top: 390px;
+  left: 150px;
+  font-size: 14px;
+}
+
 /* media queries */
 
 @media screen and (min-width: 900px) {
@@ -592,6 +603,13 @@ footer {
 
   .newsletter-btn {
     margin-left: 7.5rem;
+  }
+
+  #message {
+    position: absolute;
+    top: 390px;
+    left: 320px;
+    font-size: 16px;
   }
 }
 
