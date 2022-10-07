@@ -64,6 +64,10 @@ header {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
 }
 
+#header{
+  background-color: #252525;
+}
+
 .nav {
   height: 7.2rem;
   display: flex;
